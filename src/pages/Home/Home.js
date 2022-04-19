@@ -20,6 +20,7 @@ import NyanCat2Particles from 'components/NyanCat2Particles';
 import NyanCatParticles from 'components/NyanCatParticles';
 import ParallaxParticles from 'components/ParallaxParticles';
 import PolygonMaskParticles from 'components/PolygonMaskParticles';
+import PolygonsParticles from 'components/PolygonsParticles';
 import React from 'react';
 
 const Home = () => {
@@ -47,7 +48,8 @@ const Home = () => {
       {/* <NyanCatParticles /> */}
       {/* <NyanCat2Particles /> */}
       {/* <ParallaxParticles /> */}
-      <PolygonMaskParticles />
+      {/* <PolygonMaskParticles /> */}
+      <PolygonsParticles />
     </main>
   );
 };
