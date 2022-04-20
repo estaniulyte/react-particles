@@ -21,6 +21,16 @@ import NyanCatParticles from 'components/NyanCatParticles';
 import ParallaxParticles from 'components/ParallaxParticles';
 import PolygonMaskParticles from 'components/PolygonMaskParticles';
 import PolygonsParticles from 'components/PolygonsParticles';
+import PresetParticles from 'components/PresetParticles';
+import RandomParticles from 'components/RandomParticles';
+import ShadowParticles from 'components/ShadowParticles';
+import SlowParticles from 'components/SlowParticles';
+import SnowParticles from 'components/SnowParticles';
+import StarParticles from 'components/StarParticles';
+import TrailParticles from 'components/TrailParticles';
+import TwinkleParticles from 'components/TwinkleParticles';
+import VirusParticles from 'components/VirusParticles';
+import WarpParticles from 'components/WarpParticles';
 import React from 'react';
 
 const Home = () => {
@@ -49,7 +59,17 @@ const Home = () => {
       {/* <NyanCat2Particles /> */}
       {/* <ParallaxParticles /> */}
       {/* <PolygonMaskParticles /> */}
-      <PolygonsParticles />
+      {/* <PolygonsParticles /> */}
+      <PresetParticles />
+      {/* <RandomParticles /> */}
+      {/* <ShadowParticles /> */}
+      {/* <SlowParticles /> */}
+      {/* <SnowParticles /> */}
+      {/* <StarParticles /> */}
+      {/* <TrailParticles /> */}
+      {/* <TwinkleParticles /> */}
+      {/* <VirusParticles /> */}
+      {/* <WarpParticles /> */}
     </main>
   );
 };
